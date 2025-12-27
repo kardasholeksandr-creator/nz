@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+.main{
+    flex: 1 1 auto;
+}
+.header{
+    padding-top: 25px;
+    background: radial-gradient(24.67% 54.45% at 101.34% 102.01%, rgba(4, 198, 93, 0.5) 0%, rgba(4, 198, 93, 0) 100%), radial-gradient(187.03% 224.7% at 0% -1.89%, rgba(255, 140, 140, 0.8) 8.33%, rgba(164, 164, 255, 0) 100%), linear-gradient(81.13deg, #1a76ff -22.71%, #ffea96 101.06%);;
+    height: 100%;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.header__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+}
+.list__link{
+     margin-right: 20px;
+     color: black;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    transition: all .3s;
+}
+.button:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+.header__title{
+    font-size: 37px;
+    max-width: 600px;
+    line-height: 56px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.header__info{
+    display: flex;
+    flex-direction: column;
+}
+.reg-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.reg__picture img{
+    max-width: 600px;
+    align-self: flex-end;
+
+}
+.reg__picture{
+    display: flex;
+}
+.reg__button{
+    margin-top: 20px;
+}
+.main{
+   
+}
+
+.possibilities-inner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    width: 100%;
+
+}
+.pos-title{
+    font-size: 37px;
+    max-width: 600px;
+    line-height: 56px;
+    font-weight: 500;
+    padding: 30px 0;
+}
+.possibilities-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px 0;
+    justify-content: center;
+    margin: 30px 0;
+}
+.possibilities-item img{
+    max-width: 50px;
+}
+h2{
+    font-size: 37px;
+    max-width: 600px;
+    line-height: 56px;
+    font-weight: 500;
+    padding: 30px 0;
+}
+.visual__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.visual{
+    width: 100%;
+    padding: 18px 0;
+    background-color: #f4f8fe;
+}
+.visual__img img{
+    max-width: 500px;
+}
+.visual__list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px 0;
+}
+.visual__item{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.faq__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq__list{
+    max-width: 500px;
+    margin-top: 20px;
+}
+.faq-item{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.faq__title{
+    max-width: 400px;
+}
+.footer{
+    width: 100vw;
+    background-color: black;
+    position: relative;
+    height: 100vh;
+  
+}
+.footer h2{
+    color: white;
+
+}
+.title__footer{
+    max-width: 300px;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.footer__top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer__img{
+    
+}
+.footer__img img{
+    max-width: 550px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.footer__button{
+    background-color: white;
+    color: black;
+    transition: all .3s;
+    border: 1px solid white
+
+}
+.footer__button:hover{
+    background-color: transparent;
+    color: white;
+}
+.footer__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top:300px;
+   
+    
+}
+
+.footer__created{
+    color: white;
+}
+.footer__bottom{
+    
+}
+.first__icon{
+    margin-right: 10px;
+}
+.second__icon{
+     margin-right: 10px;
+
+}
+.footer__created{
+    text-align: center;
+    margin-top: 50px;
+}
