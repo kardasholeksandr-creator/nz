@@ -239,3 +239,85 @@ h2{
     text-align: center;
     margin-top: 50px;
 }
+
+@media (max-width:800px) {
+    .header__list li:nth-child(1) a{
+        display: none;
+    }
+    .header__list li:nth-child(2) a{
+        display: none;
+    }
+    .header__list li:nth-child(3) a{
+        display: none;
+    }
+    .header__list li:nth-child(4) a{
+        display: none;
+    }
+    .header__title{
+    font-size: 30px;
+    max-width: 700px;
+    line-height: 56px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.reg-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.reg__picture img{
+    max-width: 500px;
+    align-self: center;
+    
+
+}
+.visual__title{
+    text-align: center;
+}
+.visual__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.visual__item:last-child{
+    margin-bottom: 20px;
+}
+.pos-title{
+    text-align: center;
+}
+.possibilities-inner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    width: 100%;
+
+}
+}
+@media (max-width:600px) {
+
+.header__title{
+    font-size: 25px;
+    max-width: 700px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.reg__picture img{
+    max-width: 300px;
+    align-self: center;
+    
+
+}
+.possibilities-inner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    width: 100%;
+
+}
+.visual__img img{
+    max-width: 300px;
+}
+
+}
