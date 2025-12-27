@@ -11,17 +11,17 @@
         <header class="header">
             <div class="container">
                 <div class="header__top">
-                    <div class="header__logo">
+                    <a href="/" class="header__logo">
                         <img src="./logo.svg" alt="logo">
                         <span>nz.ua</span>
-                    </div>
+                    </a>
                     <nav class="header__nav">
                         <ul class="header__list">
-                            <li><a href="#" class="list__link">Головна</a></li>
-                            <li><a href="#" class="list__link">Можливості</a></li>
-                            <li><a href="#" class="list__link">Про сайт</a></li>
-                            <li><a href="#" class="list__link">Підтримка</a></li>
-                            <li><a href="#" class="list__link button">Увійти до кабінету</a></li>
+                            <li><a href="/" class="list__link">Головна</a></li>
+                            <li><a href="#posibilities" class="list__link">Можливості</a></li>
+                            <li><a href="#about" class="list__link">Про сайт</a></li>
+                            <li><a href="#support" class="list__link">Підтримка</a></li>
+                            <li><a href="#account" class="list__link button">Увійти до кабінету</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -40,7 +40,7 @@
         </header>
         <main class="main">
             <div class="container">
-                <section class="main__possibilities">
+                <section id="posibilities" class="main__possibilities">
                         <h2 class="pos-title">
                             Можливості
                         </h2>
@@ -57,14 +57,14 @@
                 </section>
                 
             </div>
-            <section class="visual">
+            <section id="about" class="visual">
                 <div class="container">
                     <h2 class="visual__title">Як це виглядає
 
 </h2>
                         <div class="visual__inner">
                             <ul class="visual__list">
-                                <li class="visual__item">Журнали</li>
+                                <li class="visual__item active">Журнали</li>
                                 <li class="visual__item">Щоденники</li>
                                 <li class="visual__item">Звіти</li>
                                 <li class="visual__item">Дистанційне навчання</li>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
         </main>
-        <footer class="footer">
+        <footer id="support" class="footer">
             <div class="container">
                 <div class="footer__top">
                     <div class="question-block">
@@ -131,5 +131,6 @@
 
 
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
